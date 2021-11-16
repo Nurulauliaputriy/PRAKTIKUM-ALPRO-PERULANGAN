@@ -11,14 +11,14 @@ import java.util.Scanner;
 public class putriyy {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int bil;
-		bil = 1;
+		Scanner input = new Scanner(System.in);
+		int angka = 1;
 		
-		while (bil <= 5) {
+		while (angka <= 5) {
 		
-		System.out.println(bil);
-		bil ++;
+		System.out.println(" masukan angka : ");
+
+		angka = input.nextInt(); 
 		
 		}
 	}
